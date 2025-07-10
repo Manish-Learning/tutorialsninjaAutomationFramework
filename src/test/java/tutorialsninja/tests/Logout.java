@@ -1,11 +1,14 @@
 package tutorialsninja.tests;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.AccountLogoutPage;
@@ -25,11 +28,11 @@ public class Logout extends Base{
 	public void teatDown() {
 		closeBrowser(driver);
 	}
-	
+	@Parameters({"browser"})
 	@BeforeMethod
-	public void setup() {
+	public void setup(String browserName) throws MalformedURLException, URISyntaxException {
 		
-		driver = openBrowserAndApplication();
+		driver = openBrowserAndApplication(browserName);
 		prop = CommonUtils.loadProperties();
 		landingPage = new LandingPage(driver);
 		

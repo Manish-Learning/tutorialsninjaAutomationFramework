@@ -1,25 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-07T13:03:36 IST" name="Default suite" finished-at="2025-07-07T13:03:42 IST" duration-ms="5451">
+  <suite started-at="2025-07-10T15:05:56 IST" name="CrossBrowserSuite" finished-at="2025-07-10T15:06:46 IST" duration-ms="50004">
     <groups>
     </groups>
-    <test started-at="2025-07-07T13:03:36 IST" name="Default test" finished-at="2025-07-07T13:03:42 IST" duration-ms="5451">
+    <test started-at="2025-07-10T15:05:56 IST" name="EdgeTests" finished-at="2025-07-10T15:06:46 IST" duration-ms="50004">
       <class name="tutorialsninja.tests.Search">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tutorialsninja.tests.Search@22555ebf]" started-at="2025-07-07T13:03:36 IST" name="setup" finished-at="2025-07-07T13:03:40 IST" duration-ms="3616" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:05:56 IST" name="setup" finished-at="2025-07-10T15:06:02 IST" duration-ms="5908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchByUsingParentCategoryAndSearchInSubCategoriesOption()[pri:10, instance:tutorialsninja.tests.Search@22555ebf]" started-at="2025-07-07T13:03:40 IST" name="verifySearchByUsingParentCategoryAndSearchInSubCategoriesOption" finished-at="2025-07-07T13:03:42 IST" duration-ms="1532" status="PASS">
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:02 IST" name="verifySearchWithValidProduct" finished-at="2025-07-10T15:06:03 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:03 IST" name="tearDown" finished-at="2025-07-10T15:06:04 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:04 IST" name="setup" finished-at="2025-07-10T15:06:08 IST" duration-ms="4078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithNonExistingProduct()[pri:2, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:08 IST" name="verifySearchWithNonExistingProduct" finished-at="2025-07-10T15:06:08 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNonExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:08 IST" name="tearDown" finished-at="2025-07-10T15:06:09 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:09 IST" name="setup" finished-at="2025-07-10T15:06:11 IST" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithoutEnteringAnyProduct()[pri:3, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:11 IST" name="verifySearchWithoutEnteringAnyProduct" finished-at="2025-07-10T15:06:12 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutEnteringAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:12 IST" name="tearDown" finished-at="2025-07-10T15:06:12 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:12 IST" name="setup" finished-at="2025-07-10T15:06:16 IST" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchAfterLogin()[pri:4, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:16 IST" name="verifySearchAfterLogin" finished-at="2025-07-10T15:06:18 IST" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:18 IST" name="tearDown" finished-at="2025-07-10T15:06:18 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:18 IST" name="setup" finished-at="2025-07-10T15:06:21 IST" duration-ms="3052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchResultingInMultipleProducts()[pri:5, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:21 IST" name="verifySearchResultingInMultipleProducts" finished-at="2025-07-10T15:06:22 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultingInMultipleProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:22 IST" name="tearDown" finished-at="2025-07-10T15:06:23 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:23 IST" name="setup" finished-at="2025-07-10T15:06:26 IST" duration-ms="3040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchFieldsPlaceholders()[pri:6, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:26 IST" name="verifySearchFieldsPlaceholders" finished-at="2025-07-10T15:06:26 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFieldsPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:26 IST" name="tearDown" finished-at="2025-07-10T15:06:27 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:27 IST" name="setup" finished-at="2025-07-10T15:06:30 IST" duration-ms="3025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchingForProductUsingSearchCriteriaField()[pri:7, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:30 IST" name="verifySearchingForProductUsingSearchCriteriaField" finished-at="2025-07-10T15:06:31 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingForProductUsingSearchCriteriaField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:31 IST" name="tearDown" finished-at="2025-07-10T15:06:31 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:31 IST" name="setup" finished-at="2025-07-10T15:06:35 IST" duration-ms="3476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchingForProductUsingSomeTextInProductDescription()[pri:8, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:35 IST" name="verifySearchingForProductUsingSomeTextInProductDescription" finished-at="2025-07-10T15:06:36 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchingForProductUsingSomeTextInProductDescription -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:36 IST" name="tearDown" finished-at="2025-07-10T15:06:36 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:36 IST" name="setup" finished-at="2025-07-10T15:06:39 IST" duration-ms="2699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchBySelectingSubCategory()[pri:9, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:39 IST" name="verifySearchBySelectingSubCategory" finished-at="2025-07-10T15:06:41 IST" duration-ms="1904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBySelectingSubCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:41 IST" name="tearDown" finished-at="2025-07-10T15:06:41 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:41 IST" name="setup" finished-at="2025-07-10T15:06:44 IST" duration-ms="2772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchByUsingParentCategoryAndSearchInSubCategoriesOption()[pri:10, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:44 IST" name="verifySearchByUsingParentCategoryAndSearchInSubCategoriesOption" finished-at="2025-07-10T15:06:46 IST" duration-ms="2123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByUsingParentCategoryAndSearchInSubCategoriesOption -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@22555ebf]" started-at="2025-07-07T13:03:42 IST" name="tearDown" finished-at="2025-07-07T13:03:42 IST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialsninja.tests.Search@702657cc]" started-at="2025-07-10T15:06:46 IST" name="tearDown" finished-at="2025-07-10T15:06:46 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialsninja.tests.Search -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- EdgeTests -->
+  </suite> <!-- CrossBrowserSuite -->
 </testng-results>
